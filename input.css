@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        font-family: 'Red Hat Display', sans-serif;
+    }
+}
+
+@layer components {
+    .container {
+        @apply max-w-[1080px]
+    }
+
+    .btn {
+        @apply max-w-fit inline-block mt-6 py-[10px] px-8 shadow-customred bg-lightred rounded-2xl text-white text-xl tracking-tight
+    }
+}
